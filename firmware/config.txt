@@ -3,6 +3,7 @@
 # Some settings may impact device functionality. See link above for details
 
 kernel=zImage
+# The pi3-disable-bs overlay allows us to use the original UART.
 dtoverlay=pi3-disable-bt
 
 # uncomment if you get no picture on HDMI for a default "safe" mode
