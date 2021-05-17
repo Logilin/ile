@@ -1,0 +1,7 @@
+config BR2_PACKAGE_HELLO_CUSTOM
+	bool "Hello Custom"
+	help
+	  Our custom Hello program.
+
+	  https://www.logilin.fr/
+
